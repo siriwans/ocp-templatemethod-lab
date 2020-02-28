@@ -1,0 +1,39 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CoffeeClient",
+            "request": "launch",
+            "mainClass": "lab.assignment.afterrefactoring.CoffeeClient"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CoffeeClient(1)",
+            "request": "launch",
+            "mainClass": "lab.assignment.beforerefactoring.clientcode.CoffeeClient"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HouseClient",
+            "request": "launch",
+            "mainClass": "lab.example.afterrefactoring.clientcode.HouseClient"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HouseClient(1)",
+            "request": "launch",
+            "mainClass": "lab.example.beforerefactoring.clientcode.HouseClient"
+        }
+    ]
+}
